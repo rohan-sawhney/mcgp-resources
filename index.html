@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v3.9.5" />
+<meta property="og:title" content="mcgp-resources" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="https://rohan-sawhney.github.io/mcgp-resources/" />
+<meta property="og:url" content="https://rohan-sawhney.github.io/mcgp-resources/" />
+<meta property="og:site_name" content="mcgp-resources" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="mcgp-resources" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","headline":"mcgp-resources","name":"mcgp-resources","url":"https://rohan-sawhney.github.io/mcgp-resources/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/mcgp-resources/assets/css/style.css?v=4f1467fcbdbab4317e6e1842022a64033cf5916d">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/mcgp-resources/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="https://rohan-sawhney.github.io/mcgp-resources/">mcgp-resources</a></h1>
+      
+
+      <p><img src="imgs/logo.gif" height="64" width="84" align="right" /></p>
+
+<h1 id="resources-on-monte-carlo-geometry-processing">Resources on Monte Carlo Geometry Processing</h1>
+
+<p><strong>Course Material</strong>: Links to <a href="https://rohan-sawhney.github.io/mcgp-resources/">webpage</a>, recordings [<a href="https://youtu.be/cmgNqCwaPYc">pre-recorded</a>, live (coming soon!)] and slides [<a href="https://github.com/rohan-sawhney/mcgp-resources/blob/main/MCGP-slides.key">keynote</a>, <a href="https://github.com/rohan-sawhney/mcgp-resources/blob/main/MCGP-slides.pdf">pdf</a>].</p>
+
+<p><strong>Abstract</strong>: Accurately analyzing large amounts of geometric data is critical for many scientific and engineering applications. Techniques based on <em>partial differential equations (PDEs)</em> provide powerful tools for analyzing physical systems, but conventional solvers are not yet at a stage where they “just work” on problems of real-world complexity. A constant challenge is spatial discretization, which divides the domain into a high-quality volumetric mesh for PDE-based analysis. Unfortunately, this approach does not scale well to modern computer architectures, and as such, there remains a large divide between our ability to <em>visualize</em> and <em>analyze</em> the natural world.</p>
+
+<p>The <a href="https://en.wikipedia.org/wiki/Walk-on-spheres_method">walk on spheres (WoS)</a> algorithm makes a radical departure from conventional PDE solvers, by reformulating fundamental PDEs like the Poisson equation as recursive integrals that can be solved using the Monte Carlo method. Since these integrals closely resemble those in light transport, one can leverage deep knowledge from <a href="https://pbrt.org">Monte Carlo rendering</a> to build new scalable algorithms with vastly different numerical tradeoffs, such as avoiding volumetric meshing altogether.</p>
+
+<p>This course, presented at the <a href="https://sgp2024.github.io/program/#graduate-school">Symposium on Geometry Processing Graduate School</a>, provides a broad overview of grid-free Monte Carlo methods for PDEs, with an emphasis on teaching the key principles of Monte Carlo, from sample generation and variance reduction to system design, by ways of WoS and its recent generalizations.</p>
+
+<h2 id="associated-publications-and-code">Associated Publications and Code</h2>
+
+<p>The course material is based on the following publications:</p>
+<blockquote>
+  <p>Monte Carlo Geometry Processing [<a href="https://www.cs.cmu.edu/~kmcrane/Projects/MonteCarloGeometryProcessing/index.html">Project</a>, <a href="http://www.rohansawhney.io/mcgp.pdf">Paper</a>, <a href="http://rohansawhney.io/RohanSawhneyPhDThesis.pdf">PhD thesis</a>, <a href="https://www.youtube.com/watch?v=zl9GtPX0LjM&amp;feature=youtu.be">Talk</a>]<br />
+Walk on Stars: Grid-Free Monte Carlo for PDEs with Neumann Boundary Conditions [<a href="https://www.cs.cmu.edu/~kmcrane/Projects/WalkOnStars/index.html">Project</a>, <a href="http://www.rohansawhney.io/WalkOnStars.pdf">Paper</a>, <a href="https://youtu.be/InWVU68KhMs">Talk</a>]<br />
+Walkin’ Robin: Walk on Stars with Robin Boundary Conditions [<a href="https://imaging.cs.cmu.edu/walk_on_stars_robin/">Project</a>, <a href="http://www.rohansawhney.io/WoStRobin.pdf">Paper</a>]<br />
+Grid-Free Monte Carlo for PDEs with Spatially Varying Coefficients [<a href="https://cs.dartmouth.edu/wjarosz/publications/sawhneyseyb22gridfree.html">Project</a>, <a href="http://www.rohansawhney.io/vcwos.pdf">Paper</a>, <a href="https://www.youtube.com/watch?v=dXROl0KGPXc">Talk</a>]<br />
+Boundary Value Caching for Walk on Spheres [<a href="http://www.rohansawhney.io/BoundaryValueCaching.pdf">Paper</a>, <a href="https://www.youtube.com/watch?v=J9o7kgrpco0">Talk</a>]</p>
+</blockquote>
+
+<p>All solvers and geometric queries are implemented in the open-source <a href="https://github.com/rohan-sawhney/zombie">Zombie</a> and <a href="https://github.com/rohan-sawhney/fcpw">FCPW</a> libraries (respectively). Also checkout the following basic code examples: <a href="https://www.cs.cmu.edu/~kmcrane/Projects/MonteCarloGeometryProcessing/WoSLaplace2D.cpp.html">WoS for Laplace</a>, <a href="https://www.cs.cmu.edu/~kmcrane/Projects/MonteCarloGeometryProcessing/WoSPoisson2D.cpp.html">WoS for Poisson</a>, <a href="https://github.com/GeometryCollective/wost-simple">WoSt step-by-step tutorial</a>.</p>
+
+<h2 id="additional-resources-will-be-updated-regularly">Additional Resources (will be updated regularly)</h2>
+
+<p>WoS relies on and connects rich concepts from Monte Carlo methods, PDEs, and stochastic differential equations: from a <a href="https://en.wikipedia.org/wiki/Harmonic_function">harmonic analysis</a> perspective, WoS is a Monte Carlo method for solving <a href="https://en.wikipedia.org/wiki/Laplace's_equation">Laplace equations</a>, while from a <a href="https://en.wikipedia.org/wiki/Stochastic_process">random process</a> perspective, it is an acceleration strategy for simulating <a href="https://en.wikipedia.org/wiki/Brownian_motion">Brownian motion</a>. Here are some enjoyable reference resources on these topics:</p>
+
+<blockquote>
+  <p>CMU 21-387: Monte Carlo Methods and Applications [<a href="https://geometrycollective.github.io/monte-carlo/mcma-fa2023.html">Course webpage</a>]<br />
+Monte Carlo Methods - a special topics course [<a href="https://math.arizona.edu/~tgk/mc/book.pdf">Book</a>]<br />
+Physically Based Rendering: From Theory To Practice [<a href="https://pbrt.org">Book</a>] - <em>Goto reference</em> for MC rendering</p>
+</blockquote>
+
+<blockquote>
+  <p>Harmonic Function Theory [<a href="https://www.axler.net/HFT.pdf">Book</a>]<br />
+Partial Differential Equations by Lawrence C. Evans [<a href="https://books.google.com/books?hl=en&amp;lr=&amp;id=Ott1EAAAQBAJ&amp;oi=fnd&amp;pg=PP1&amp;dq=%22Partial+Differential+Equations%22+by+L.+C.+Evans&amp;ots=cVFCwE3VzM&amp;sig=06kAKV2mAvSUM6LyxvIUEzfJN28#v=onepage&amp;q=%22Partial%20Differential%20Equations%22%20by%20L.%20C.%20Evans&amp;f=false">Book</a>]</p>
+</blockquote>
+
+<blockquote>
+  <p>Stochastic Differential Equations by Bernt Øksendal [<a href="http://www.stat.ucla.edu/~ywu/research/documents/StochasticDifferentialEquations.pdf">Book</a>]<br />
+Handbook of Brownian Motion - Facts and Formulae [<a href="https://link.springer.com/book/10.1007/978-3-0348-8163-0">Book</a>]<br />
+Einstein’s Investigations on the Theory of Brownian Movement from 1926! [<a href="https://www.amazon.com/Investigations-Theory-Brownian-Movement-Physics/dp/0486603040">Book</a>]</p>
+</blockquote>
+
+<blockquote>
+  <p>Some Continuous Monte Carlo Methods for the Dirichlet Problem [<a href="https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-27/issue-3/Some-Continuous-Monte-Carlo-Methods-for-the-Dirichlet-Problem/10.1214/aoms/1177728169.full">Mervin Muller’s original paper on WoS</a>]<br />
+The Rate of Convergence of the Walk on Spheres Algorithm [<a href="https://mbraverm.princeton.edu/files/AttachBBlocaldim.pdf">Paper</a>]</p>
+</blockquote>
+
+<p>WoS has recently seen growing interest in computer graphics, as it shares many computational benefits with <a href="https://pbrt.org">Monte Carlo rendering</a>: logarithmic scaling with geometric detail, robustness, trivial parallelism, output-sensitive evaluation, and the ability to work with different geometric representations. Beyond our <a href="https://github.com/rohan-sawhney/mcgp-resources/tree/main?tab=readme-ov-file#associated-publications-and-code">own work</a> on the topic, here is a non-exhaustive list of publications on advanced/alternative WoS estimators:</p>
+
+<blockquote>
+  <p>Kelvin Transformations for Simulations on Infinite Domains [<a href="https://cseweb.ucsd.edu/~viscomp/projects/SIG21KelvinTransform/">Project</a>, <a href="https://cseweb.ucsd.edu/~viscomp/projects/SIG21KelvinTransform/paper/KelvinTransform.pdf">Paper</a>]<br />
+Coupling Conduction, Convection and Radiative Transfer in a Single Path-Space [<a href="https://www.irit.fr/STORM/site/coupling-conduction-convection-and-radiative-transfer-in-a-single-path-space/">Project</a>, <a href="https://hal.science/hal-04090428">Paper</a>]<br />
+A Monte Carlo Method for Fluid Simulation [<a href="https://riouxld21.github.io/research/publication/2022-mcfluid/">Project</a>, <a href="https://riouxld21.github.io/research/publication/MCFluid.pdf">Paper</a>]<br />
+Velocity-Based Monte Carlo Fluids [<a href="https://rsugimoto.net/VelMCFluidsProject/">Project</a>, <a href="https://rsugimoto.net/VelMCFluidsProject/VelMCFluids.pdf">Paper</a>]<br />
+Neural Monte Carlo Fluid Simulation [<a href="https://pranav-jain.github.io/projects/nmcfs/index.html">Project</a>, <a href="https://pranav-jain.github.io/projects/nmcfs/nmcfs.pdf">Paper</a>]<br />
+A Differential Monte Carlo Solver For the Poisson Equation [<a href="https://www.shuangz.com/projects/diff-wos-sg24/">Project</a>, <a href="https://www.shuangz.com/projects/diff-wos-sg24/diff-wos-sg24.pdf">Paper</a>]<br />
+Solving Inverse PDE Problems using Grid-Free Monte Carlo Estimators [<a href="https://arxiv.org/pdf/2208.02114">Paper</a>]<br />
+Heat Simulation on Meshless Crafted-Made Shapes [<a href="https://dl.acm.org/doi/pdf/10.1145/3623264.3624457?casa_token=xzk76-QIKEsAAAAA:Le6WPwP9lhf9HrVZj9Ueyvbb2aZUq514VHryxtHE55z63bWW7FfeHf8-6MrI5vQEN1YTlcadf3-3">Paper</a>]<br />
+A Practical Walk-on-Boundary Method for Boundary Value Problems [<a href="https://rsugimoto.net/WoBforBVPsProject/">Project</a>, <a href="https://rsugimoto.net/WoBforBVPsProject/WoBforBVPs.pdf">Paper</a>]<br />
+Walk on Spheres for PDE-based Path Planning [<a href="https://arxiv.org/pdf/2406.01713">Paper</a>]<br />
+Stochastic Computation of Barycentric Coordinates [<a href="https://graphics.pixar.com/library/StochasticCoordinates/paper.pdf">Paper</a>]</p>
+</blockquote>
+
+<p>as well as strategies for improving efficiency and increasing applicability to more boundary representations:</p>
+
+<blockquote>
+  <p>A Bidirectional Formulation for Walk on Spheres [<a href="https://cs.dartmouth.edu/~wjarosz/publications/qi22bidirectional.html">Project</a>, <a href="https://cs.dartmouth.edu/~wjarosz/publications/qi22bidirectional.pdf">Paper</a>]<br />
+Mean Value Caching for Walk on Spheres [<a href="https://diglib.eg.org/items/490fc1c8-790c-4bab-8a4b-04166e5ac91d">Paper</a>]<br />
+Neural Caches for Monte Carlo Partial Differential Equation Solver [<a href="https://zilulii.github.io/cache-website/">Project</a>, <a href="https://zilulii.github.io/cache-website/assets/SA23_upload.pdf">Paper</a>]<br />
+Solving Poisson Equations using Neural Walk-on-Spheres [<a href="https://openreview.net/pdf?id=dQveBV9lZl">Paper</a>]<br />
+Discontinuity-Aware 2D Neural Fields [<a href="https://yashbelhe.github.io/danf/index.html">Project</a>, <a href="https://yashbelhe.github.io/danf/DiscontinuityAwareNeuralFields_SigAsia2023.pdf">Paper</a>]<br />
+GPU-Accelerated Monte Carlo Geometry Processing for Gradient-Domain Methods [<a href="https://www.diva-portal.org/smash/get/diva2:1627037/FULLTEXT01.pdf">Paper</a>]<br />
+Hierarchical Point Distance Fields [<a href="https://dl.acm.org/doi/abs/10.1007/978-3-030-90436-4_35">Paper</a>]<br />
+Spelunking the deep: Guaranteed queries on neural implicit surfaces via range analysis [<a href="https://nmwsharp.com/research/interval-implicits/">Project</a>, <a href="https://nmwsharp.com/media/papers/interval-implicits/SpelunkingTheDeep.pdf">Paper</a>]<br />
+Ray Tracing Harmonic Functions [<a href="https://markjgillespie.com/Research/harnack-tracing/index.html">Project</a>, <a href="https://markjgillespie.com/Research/harnack-tracing/HarnackTracing.pdf">Paper</a>]</p>
+</blockquote>
+
+<p>Also, here are a few fun educational demos, blogs and tweets:</p>
+
+<blockquote>
+  <p>ShaderToy demos [<a href="https://www.shadertoy.com/view/wdffWj">implicit surface</a>, <a href="https://www.shadertoy.com/view/7tyyzW">curve inflation</a>, <a href="https://www.shadertoy.com/view/WdXfzl">diffusion curves</a>]<br />
+Blogs [<a href="https://blog.demofox.org/2020/07/11/interpolating-data-over-arbitrary-shapes-with-laplaces-equation-and-walk-on-spheres/">demofox</a>, <a href="https://observablehq.com/@fil/walk-on-spheres">javascript implementation</a>]<br />
+Tweets [<a href="https://x.com/keenanisalive/status/1258152669727899650">MCGP</a>, <a href="https://x.com/keenanisalive/status/1674890996814090240">WoSt</a>, <a href="https://x.com/keenanisalive/status/1526156137971728385">Variable Coefficients</a>, <a href="https://x.com/rms80/status/1317532899302805504">Path Planning</a>]</p>
+</blockquote>
+
+<h2 id="course-contributors">Course Contributors</h2>
+
+<p><a href="http://www.rohansawhney.io">Rohan Sawhney</a><br />
+<a href="https://www.bailey-miller.com">Bailey Miller</a></p>
+
+<h2 id="citation">Citation</h2>
+
+<p>If you want to cite this course, use the following BibTeX:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@inproceedings{Sawhney:2024:MCGP,
+    author = {Sawhney, Rohan and Miller, Bailey},
+    booktitle = {SGP 2024 Graduate School Courses},
+    title = {Monte Carlo Geometry Processing},
+    year = {2024}}
+</code></pre></div></div>
+
+<h2 id="license">License</h2>
+
+<p>This tutorial is licensed under the <a href="/mcgp-resources/LICENSE.txt">CC BY 4.0 license</a>.</p>
+
+
+      
+      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+        This site is open source. <a href="https://github.com/rohan-sawhney/mcgp-resources/edit/main/README.md">Improve this page</a>.
+      </div>
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>

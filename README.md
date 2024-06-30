@@ -2,7 +2,7 @@
 
 # Resources on Monte Carlo Geometry Processing
 
-**Course Material**: Links to [webpage](https://www.google.com/), recordings [[pre-recorded](https://youtu.be/cmgNqCwaPYc), live (coming soon!)] and slides [[keynote](https://github.com/rohan-sawhney/mcgp-resources.github.io/blob/main/MCGP-slides.key), [pdf](https://github.com/rohan-sawhney/mcgp-resources.github.io/blob/main/MCGP-slides.pdf)].
+**Course Material**: Links to [webpage](https://www.google.com/), recordings [[pre-recorded](https://youtu.be/cmgNqCwaPYc), live (coming soon!)] and slides [[keynote](https://github.com/rohan-sawhney/mcgp-resources/blob/main/MCGP-slides.key), [pdf](https://github.com/rohan-sawhney/mcgp-resources/blob/main/MCGP-slides.pdf)].
 
 **Abstract**: Accurately analyzing large amounts of geometric data is critical for many scientific and engineering applications. Techniques based on _partial differential equations (PDEs)_ provide powerful tools for analyzing physical systems, but conventional solvers are not yet at a stage where they “just work” on problems of real-world complexity. A constant challenge is spatial discretization, which divides the domain into a high-quality volumetric mesh for PDE-based analysis. Unfortunately, this approach does not scale well to modern computer architectures, and as such, there remains a large divide between our ability to _visualize_ and _analyze_ the natural world.
 

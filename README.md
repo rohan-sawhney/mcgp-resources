@@ -10,7 +10,7 @@ The [walk on spheres (WoS)](https://en.wikipedia.org/wiki/Walk-on-spheres_method
 
 This course, presented at the [Symposium on Geometry Processing Graduate School](https://sgp2024.github.io/program/#graduate-school), provides a broad overview of grid-free Monte Carlo methods for PDEs, with an emphasis on teaching the key principles of Monte Carlo, from sample generation and variance reduction to system design, by ways of WoS and its recent generalizations.
 
-## Associated Publications and Code
+## Associated publications and code
 
 The course material is based on the following publications:
 > Monte Carlo Geometry Processing [[Project](https://www.cs.cmu.edu/~kmcrane/Projects/MonteCarloGeometryProcessing/index.html), [Paper](http://www.rohansawhney.io/mcgp.pdf), [PhD thesis](http://rohansawhney.io/RohanSawhneyPhDThesis.pdf), [Talk](https://www.youtube.com/watch?v=zl9GtPX0LjM&feature=youtu.be)]<br>
@@ -21,7 +21,7 @@ The course material is based on the following publications:
 
 All solvers and geometric queries are implemented in the open-source [Zombie](https://github.com/rohan-sawhney/zombie) and [FCPW](https://github.com/rohan-sawhney/fcpw) libraries (respectively). Also checkout the following basic code examples: [WoS for Laplace](https://www.cs.cmu.edu/~kmcrane/Projects/MonteCarloGeometryProcessing/WoSLaplace2D.cpp.html), [WoS for Poisson](https://www.cs.cmu.edu/~kmcrane/Projects/MonteCarloGeometryProcessing/WoSPoisson2D.cpp.html), [WoSt step-by-step tutorial](https://github.com/GeometryCollective/wost-simple).
 
-## Additional Resources (will be updated regularly)
+## Additional aWoSome resources (will be updated regularly)
 
 WoS relies on and connects rich concepts from Monte Carlo methods, PDEs, and stochastic differential equations: from a [harmonic analysis](https://en.wikipedia.org/wiki/Harmonic_function) perspective, WoS is a Monte Carlo method for solving [Laplace equations](https://en.wikipedia.org/wiki/Laplace's_equation), while from a [random process](https://en.wikipedia.org/wiki/Stochastic_process) perspective, it is an acceleration strategy for simulating [Brownian motion](https://en.wikipedia.org/wiki/Brownian_motion). Here are some enjoyable reference resources on these topics:
 
@@ -71,7 +71,7 @@ Also, here are a few fun educational demos, blogs and tweets:
 > Blogs [[demofox](https://blog.demofox.org/2020/07/11/interpolating-data-over-arbitrary-shapes-with-laplaces-equation-and-walk-on-spheres/), [javascript implementation](https://observablehq.com/@fil/walk-on-spheres)]\
 > Tweets [[MCGP](https://x.com/keenanisalive/status/1258152669727899650), [WoSt](https://x.com/keenanisalive/status/1674890996814090240), [Variable Coefficients](https://x.com/keenanisalive/status/1526156137971728385), [Path Planning](https://x.com/rms80/status/1317532899302805504)]
 
-## Course Contributors
+## Course contributors
 
 [Rohan Sawhney](http://www.rohansawhney.io)\
 [Bailey Miller](https://www.bailey-miller.com)

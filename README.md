@@ -41,18 +41,18 @@ WoS relies on and connects rich concepts from Monte Carlo methods, PDEs, and sto
 
 WoS has recently seen growing interest in computer graphics, as it shares many computational benefits with [Monte Carlo rendering](https://pbrt.org): logarithmic scaling with geometric detail, robustness, trivial parallelism, output-sensitive evaluation, and the ability to work with different geometric representations. Beyond our [own work](https://github.com/rohan-sawhney/mcgp-resources/tree/main?tab=readme-ov-file#associated-publications-and-code) on the topic, here is a non-exhaustive list of publications on advanced/alternative WoS estimators:
 
+> Differential Walk on Spheres [[Project](https://imaging.cs.cmu.edu/differential_walk_on_spheres/), [Paper](https://imaging.cs.cmu.edu/differential_walk_on_spheres/index_files/paper.pdf)]\
+> A Differential Monte Carlo Solver For the Poisson Equation [[Project](https://www.shuangz.com/projects/diff-wos-sg24/), [Paper](https://www.shuangz.com/projects/diff-wos-sg24/diff-wos-sg24.pdf)]\
+> Solving Inverse PDE Problems using Grid-Free Monte Carlo Estimators [[Paper](https://arxiv.org/pdf/2208.02114)]\
 > Kelvin Transformations for Simulations on Infinite Domains [[Project](https://cseweb.ucsd.edu/~viscomp/projects/SIG21KelvinTransform/), [Paper](https://cseweb.ucsd.edu/~viscomp/projects/SIG21KelvinTransform/paper/KelvinTransform.pdf)]\
 > Coupling Conduction, Convection and Radiative Transfer in a Single Path-Space [[Project](https://www.irit.fr/STORM/site/coupling-conduction-convection-and-radiative-transfer-in-a-single-path-space/), [Paper](https://hal.science/hal-04090428)]\
 > A Monte Carlo Method for Fluid Simulation [[Project](https://riouxld21.github.io/research/publication/2022-mcfluid/), [Paper](https://riouxld21.github.io/research/publication/MCFluid.pdf)]\
 > Velocity-Based Monte Carlo Fluids [[Project](https://rsugimoto.net/VelMCFluidsProject/), [Paper](https://rsugimoto.net/VelMCFluidsProject/VelMCFluids.pdf)]\
 > Neural Monte Carlo Fluid Simulation [[Project](https://pranav-jain.github.io/projects/nmcfs/index.html), [Paper](https://pranav-jain.github.io/projects/nmcfs/nmcfs.pdf)]\
-> Differential Walk on Spheres [[Project](https://imaging.cs.cmu.edu/differential_walk_on_spheres/), [Paper](https://imaging.cs.cmu.edu/differential_walk_on_spheres/index_files/paper.pdf)]\
-> A Differential Monte Carlo Solver For the Poisson Equation [[Project](https://www.shuangz.com/projects/diff-wos-sg24/), [Paper](https://www.shuangz.com/projects/diff-wos-sg24/diff-wos-sg24.pdf)]\
-> Solving Inverse PDE Problems using Grid-Free Monte Carlo Estimators [[Paper](https://arxiv.org/pdf/2208.02114)]\
-> Heat Simulation on Meshless Crafted-Made Shapes [[Paper](https://dl.acm.org/doi/pdf/10.1145/3623264.3624457?casa_token=xzk76-QIKEsAAAAA:Le6WPwP9lhf9HrVZj9Ueyvbb2aZUq514VHryxtHE55z63bWW7FfeHf8-6MrI5vQEN1YTlcadf3-3)]\
+> Stochastic Computation of Barycentric Coordinates [[Paper](https://graphics.pixar.com/library/StochasticCoordinates/paper.pdf)]\
 > A Practical Walk-on-Boundary Method for Boundary Value Problems [[Project](https://rsugimoto.net/WoBforBVPsProject/), [Paper](https://rsugimoto.net/WoBforBVPsProject/WoBforBVPs.pdf)]\
 > Walk on Spheres for PDE-based Path Planning [[Paper](https://arxiv.org/pdf/2406.01713)]\
-> Stochastic Computation of Barycentric Coordinates [[Paper](https://graphics.pixar.com/library/StochasticCoordinates/paper.pdf)]
+> Heat Simulation on Meshless Crafted-Made Shapes [[Paper](https://dl.acm.org/doi/pdf/10.1145/3623264.3624457?casa_token=xzk76-QIKEsAAAAA:Le6WPwP9lhf9HrVZj9Ueyvbb2aZUq514VHryxtHE55z63bWW7FfeHf8-6MrI5vQEN1YTlcadf3-3)]
 
 as well as strategies for improving efficiency and increasing applicability to more boundary representations:
 

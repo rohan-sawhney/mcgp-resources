@@ -46,6 +46,7 @@ WoS has recently seen growing interest in computer graphics, as it shares many c
 > A Monte Carlo Method for Fluid Simulation [[Project](https://riouxld21.github.io/research/publication/2022-mcfluid/), [Paper](https://riouxld21.github.io/research/publication/MCFluid.pdf)]\
 > Velocity-Based Monte Carlo Fluids [[Project](https://rsugimoto.net/VelMCFluidsProject/), [Paper](https://rsugimoto.net/VelMCFluidsProject/VelMCFluids.pdf)]\
 > Neural Monte Carlo Fluid Simulation [[Project](https://pranav-jain.github.io/projects/nmcfs/index.html), [Paper](https://pranav-jain.github.io/projects/nmcfs/nmcfs.pdf)]\
+> Differential Walk on Spheres [[Project](https://imaging.cs.cmu.edu/differential_walk_on_spheres/), [Paper](https://imaging.cs.cmu.edu/differential_walk_on_spheres/index_files/paper.pdf)]
 > A Differential Monte Carlo Solver For the Poisson Equation [[Project](https://www.shuangz.com/projects/diff-wos-sg24/), [Paper](https://www.shuangz.com/projects/diff-wos-sg24/diff-wos-sg24.pdf)]\
 > Solving Inverse PDE Problems using Grid-Free Monte Carlo Estimators [[Paper](https://arxiv.org/pdf/2208.02114)]\
 > Heat Simulation on Meshless Crafted-Made Shapes [[Paper](https://dl.acm.org/doi/pdf/10.1145/3623264.3624457?casa_token=xzk76-QIKEsAAAAA:Le6WPwP9lhf9HrVZj9Ueyvbb2aZUq514VHryxtHE55z63bWW7FfeHf8-6MrI5vQEN1YTlcadf3-3)]\

@@ -43,7 +43,7 @@ WoS has recently seen growing interest in computer graphics, as it shares many c
 
 > Differential Walk on Spheres [[Project](https://imaging.cs.cmu.edu/differential_walk_on_spheres/), [Paper](https://imaging.cs.cmu.edu/differential_walk_on_spheres/index_files/paper.pdf)]\
 > A Differential Monte Carlo Solver For the Poisson Equation [[Project](https://www.shuangz.com/projects/diff-wos-sg24/), [Paper](https://www.shuangz.com/projects/diff-wos-sg24/diff-wos-sg24.pdf)]\
-> Solving Inverse PDE Problems using Grid-Free Monte Carlo Estimators [[Paper](https://arxiv.org/pdf/2208.02114)]\
+> Solving Inverse PDE Problems using Monte Carlo Estimators [[Project](https://rgl.epfl.ch/publications/Yilmazer2024Solving), [Paper](https://rgl.s3.eu-central-1.amazonaws.com/media/papers/Yilmazer2024Solving.pdf)]\
 > Kelvin Transformations for Simulations on Infinite Domains [[Project](https://cseweb.ucsd.edu/~viscomp/projects/SIG21KelvinTransform/), [Paper](https://cseweb.ucsd.edu/~viscomp/projects/SIG21KelvinTransform/paper/KelvinTransform.pdf)]\
 > Coupling Conduction, Convection and Radiative Transfer in a Single Path-Space [[Project](https://www.irit.fr/STORM/site/coupling-conduction-convection-and-radiative-transfer-in-a-single-path-space/), [Paper](https://hal.science/hal-04090428)]\
 > A Monte Carlo Method for Fluid Simulation [[Project](https://riouxld21.github.io/research/publication/2022-mcfluid/), [Paper](https://riouxld21.github.io/research/publication/MCFluid.pdf)]\

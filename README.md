@@ -51,6 +51,7 @@ WoS has recently seen growing interest in computer graphics, as it shares many c
 > Neural Monte Carlo Fluid Simulation [[Project](https://pranav-jain.github.io/projects/nmcfs/index.html), [Paper](https://pranav-jain.github.io/projects/nmcfs/nmcfs.pdf)]\
 > Stochastic Computation of Barycentric Coordinates [[Paper](https://graphics.pixar.com/library/StochasticCoordinates/paper.pdf)]\
 > A Practical Walk-on-Boundary Method for Boundary Value Problems [[Project](https://rsugimoto.net/WoBforBVPsProject/), [Paper](https://rsugimoto.net/WoBforBVPsProject/WoBforBVPs.pdf)]\
+> Projected Walk on Spheres: A Monte Carlo Closest Point Method for Surface PDEs [[Project](https://rsugimoto.net/ProjectedWalkOnSpheres/), [Paper](https://rsugimoto.net/ProjectedWalkOnSpheres/ProjectedWalkOnSpheres.pdf)]\
 > Walk on Spheres for PDE-based Path Planning [[Paper](https://arxiv.org/pdf/2406.01713)]\
 > Heat Simulation on Meshless Crafted-Made Shapes [[Paper](https://dl.acm.org/doi/pdf/10.1145/3623264.3624457?casa_token=xzk76-QIKEsAAAAA:Le6WPwP9lhf9HrVZj9Ueyvbb2aZUq514VHryxtHE55z63bWW7FfeHf8-6MrI5vQEN1YTlcadf3-3)]
 

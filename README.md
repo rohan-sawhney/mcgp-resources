@@ -45,6 +45,7 @@ WoS has recently seen growing interest in computer graphics, as it shares many c
 > A Differential Monte Carlo Solver For the Poisson Equation [[Project](https://www.shuangz.com/projects/diff-wos-sg24/), [Paper](https://www.shuangz.com/projects/diff-wos-sg24/diff-wos-sg24.pdf)]\
 > Solving Inverse PDE Problems using Monte Carlo Estimators [[Project](https://rgl.epfl.ch/publications/Yilmazer2024Solving), [Paper](https://rgl.s3.eu-central-1.amazonaws.com/media/papers/Yilmazer2024Solving.pdf)]\
 > Kelvin Transformations for Simulations on Infinite Domains [[Project](https://cseweb.ucsd.edu/~viscomp/projects/SIG21KelvinTransform/), [Paper](https://cseweb.ucsd.edu/~viscomp/projects/SIG21KelvinTransform/paper/KelvinTransform.pdf)]\
+> Solving partial differential equations in participating media [[Project](https://imaging.cs.cmu.edu/volumetric_walk_on_spheres/), [Paper](https://imaging.cs.cmu.edu/volumetric_walk_on_spheres/index_files/paper.pdf)]\
 > Coupling Conduction, Convection and Radiative Transfer in a Single Path-Space [[Project](https://www.irit.fr/STORM/site/coupling-conduction-convection-and-radiative-transfer-in-a-single-path-space/), [Paper](https://hal.science/hal-04090428)]\
 > A Monte Carlo Method for Fluid Simulation [[Project](https://riouxld21.github.io/research/publication/2022-mcfluid/), [Paper](https://riouxld21.github.io/research/publication/MCFluid.pdf)]\
 > Velocity-Based Monte Carlo Fluids [[Project](https://rsugimoto.net/VelMCFluidsProject/), [Paper](https://rsugimoto.net/VelMCFluidsProject/VelMCFluids.pdf)]\
@@ -61,7 +62,9 @@ as well as strategies for improving efficiency and increasing applicability to m
 > Mean Value Caching for Walk on Spheres [[Paper](https://diglib.eg.org/items/490fc1c8-790c-4bab-8a4b-04166e5ac91d)]\
 > Neural Caches for Monte Carlo Partial Differential Equation Solver [[Project](https://zilulii.github.io/cache-website/), [Paper](https://zilulii.github.io/cache-website/assets/SA23_upload.pdf)]\
 > Solving Poisson Equations using Neural Walk-on-Spheres [[Paper](https://openreview.net/pdf?id=dQveBV9lZl)]\
+> Conformal First Passage for Epsilon-free Walk-on-Spheres [[Project](https://vc.tf.fau.de/publications/Himmler25Siggraph/), [Paper](https://vc.tf.fau.de/publications/Himmler25Siggraph/Himmler25Siggraph.pdf)]\
 > Discontinuity-Aware 2D Neural Fields [[Project](https://yashbelhe.github.io/danf/index.html), [Paper](https://yashbelhe.github.io/danf/DiscontinuityAwareNeuralFields_SigAsia2023.pdf)]\
+> Guiding-Based Importance Sampling for Walk on Stars [[Project](https://illumiart.net/the-guiding-stars/), [Paper](https://shuangz.com/projects/WoSt-guide-sg25/WoSt-guide-sg25.pdf)]\
 > GPU-Accelerated Monte Carlo Geometry Processing for Gradient-Domain Methods [[Paper](https://www.diva-portal.org/smash/get/diva2:1627037/FULLTEXT01.pdf)]\
 > Hierarchical Point Distance Fields [[Paper](https://dl.acm.org/doi/abs/10.1007/978-3-030-90436-4_35)]\
 > Spelunking the deep: Guaranteed queries on neural implicit surfaces via range analysis [[Project](https://nmwsharp.com/research/interval-implicits/), [Paper](https://nmwsharp.com/media/papers/interval-implicits/SpelunkingTheDeep.pdf)]\

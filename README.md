@@ -61,7 +61,7 @@ as well as strategies for improving efficiency and increasing applicability to m
 > A Bidirectional Formulation for Walk on Spheres [[Project](https://cs.dartmouth.edu/~wjarosz/publications/qi22bidirectional.html), [Paper](https://cs.dartmouth.edu/~wjarosz/publications/qi22bidirectional.pdf)]\
 > Mean Value Caching for Walk on Spheres [[Paper](https://diglib.eg.org/items/490fc1c8-790c-4bab-8a4b-04166e5ac91d)]\
 > Neural Caches for Monte Carlo Partial Differential Equation Solver [[Project](https://zilulii.github.io/cache-website/), [Paper](https://zilulii.github.io/cache-website/assets/SA23_upload.pdf)]\
-> Solving Poisson Equations using Neural Walk-on-Spheres [[Paper](https://openreview.net/pdf?id=dQveBV9lZl)]\
+> Solving Poisson Equations using Neural Walk-on-Spheres [[Paper](https://openreview.net/pdf?id=dQveBV9lZl)], [Code](https://github.com/bizoffermark/neural_wos)]\
 > Conformal First Passage for Epsilon-free Walk-on-Spheres [[Project](https://vc.tf.fau.de/publications/Himmler25Siggraph/), [Paper](https://vc.tf.fau.de/publications/Himmler25Siggraph/Himmler25Siggraph.pdf)]\
 > Discontinuity-Aware 2D Neural Fields [[Project](https://yashbelhe.github.io/danf/index.html), [Paper](https://yashbelhe.github.io/danf/DiscontinuityAwareNeuralFields_SigAsia2023.pdf)]\
 > Guiding-Based Importance Sampling for Walk on Stars [[Project](https://illumiart.net/the-guiding-stars/), [Paper](https://shuangz.com/projects/WoSt-guide-sg25/WoSt-guide-sg25.pdf)]\

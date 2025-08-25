@@ -56,7 +56,7 @@ WoS has recently seen growing interest in computer graphics, as it shares many c
 > Projected Walk on Spheres: A Monte Carlo Closest Point Method for Surface PDEs [[Project](https://rsugimoto.net/ProjectedWalkOnSpheres/), [Paper](https://rsugimoto.net/ProjectedWalkOnSpheres/ProjectedWalkOnSpheres.pdf)]\
 > Walk on Spheres for PDE-based Path Planning [[Paper](https://arxiv.org/pdf/2406.01713)]\
 > Heat Simulation on Meshless Crafted-Made Shapes [[Paper](https://dl.acm.org/doi/pdf/10.1145/3623264.3624457?casa_token=xzk76-QIKEsAAAAA:Le6WPwP9lhf9HrVZj9Ueyvbb2aZUq514VHryxtHE55z63bWW7FfeHf8-6MrI5vQEN1YTlcadf3-3)]\
-> Autonomous Exploration in Indoor 2D Environments Using Harmonic Fields \& Monte Carlo Integration [[Paper](https://www.mdpi.com/1424-8220/25/16/4894)]\
+> Autonomous Exploration in Unknown Indoor 2D Environments Using Harmonic Fields [[Paper](https://www.mdpi.com/1424-8220/25/16/4894)]\
 > Mesh‐free Monte Carlo method for electrostatic problems with floating potentials [[Paper](https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/hve2.12468)]\
 > Monte Carlo Methods for 2D Flow Visualization [[Paper](https://vc.tf.fau.de/publications/Tian25EuroVisShort/Tian25EuroVisShort.pdf)]
 

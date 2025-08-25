@@ -51,7 +51,7 @@ WoS has recently seen growing interest in computer graphics, as it shares many c
 > Velocity-Based Monte Carlo Fluids [[Project](https://rsugimoto.net/VelMCFluidsProject/), [Paper](https://rsugimoto.net/VelMCFluidsProject/VelMCFluids.pdf)]\
 > Neural Monte Carlo Fluid Simulation [[Project](https://pranav-jain.github.io/projects/nmcfs/index.html), [Paper](https://pranav-jain.github.io/projects/nmcfs/nmcfs.pdf)]\
 > Stochastic Computation of Barycentric Coordinates [[Paper](https://graphics.pixar.com/library/StochasticCoordinates/paper.pdf)]\
-> Unbiased Differential Visibility Using Fixed-Step Walk-on-Spherical-Caps and Closest Silhouettes [[Project](https://research.nvidia.com/labs/rtr/publication/wu2025unbiased/), [Paper](https://research.nvidia.com/labs/rtr/publication/wu2025unbiased/wu2025unbiased.pdf)]\
+> Unbiased Differential Visibility Using Walk-on-Spherical-Caps and Closest Silhouettes [[Project](https://research.nvidia.com/labs/rtr/publication/wu2025unbiased/), [Paper](https://research.nvidia.com/labs/rtr/publication/wu2025unbiased/wu2025unbiased.pdf)]\
 > A Practical Walk-on-Boundary Method for Boundary Value Problems [[Project](https://rsugimoto.net/WoBforBVPsProject/), [Paper](https://rsugimoto.net/WoBforBVPsProject/WoBforBVPs.pdf)]\
 > Projected Walk on Spheres: A Monte Carlo Closest Point Method for Surface PDEs [[Project](https://rsugimoto.net/ProjectedWalkOnSpheres/), [Paper](https://rsugimoto.net/ProjectedWalkOnSpheres/ProjectedWalkOnSpheres.pdf)]\
 > Walk on Spheres for PDE-based Path Planning [[Paper](https://arxiv.org/pdf/2406.01713)]\

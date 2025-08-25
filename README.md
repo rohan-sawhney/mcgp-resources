@@ -51,10 +51,14 @@ WoS has recently seen growing interest in computer graphics, as it shares many c
 > Velocity-Based Monte Carlo Fluids [[Project](https://rsugimoto.net/VelMCFluidsProject/), [Paper](https://rsugimoto.net/VelMCFluidsProject/VelMCFluids.pdf)]\
 > Neural Monte Carlo Fluid Simulation [[Project](https://pranav-jain.github.io/projects/nmcfs/index.html), [Paper](https://pranav-jain.github.io/projects/nmcfs/nmcfs.pdf)]\
 > Stochastic Computation of Barycentric Coordinates [[Paper](https://graphics.pixar.com/library/StochasticCoordinates/paper.pdf)]\
+> Unbiased Differential Visibility Using Fixed-Step Walk-on-Spherical-Caps and Closest Silhouettes [[Project](https://research.nvidia.com/labs/rtr/publication/wu2025unbiased/), [Paper](https://research.nvidia.com/labs/rtr/publication/wu2025unbiased/wu2025unbiased.pdf)]\
 > A Practical Walk-on-Boundary Method for Boundary Value Problems [[Project](https://rsugimoto.net/WoBforBVPsProject/), [Paper](https://rsugimoto.net/WoBforBVPsProject/WoBforBVPs.pdf)]\
 > Projected Walk on Spheres: A Monte Carlo Closest Point Method for Surface PDEs [[Project](https://rsugimoto.net/ProjectedWalkOnSpheres/), [Paper](https://rsugimoto.net/ProjectedWalkOnSpheres/ProjectedWalkOnSpheres.pdf)]\
 > Walk on Spheres for PDE-based Path Planning [[Paper](https://arxiv.org/pdf/2406.01713)]\
-> Heat Simulation on Meshless Crafted-Made Shapes [[Paper](https://dl.acm.org/doi/pdf/10.1145/3623264.3624457?casa_token=xzk76-QIKEsAAAAA:Le6WPwP9lhf9HrVZj9Ueyvbb2aZUq514VHryxtHE55z63bWW7FfeHf8-6MrI5vQEN1YTlcadf3-3)]
+> Heat Simulation on Meshless Crafted-Made Shapes [[Paper](https://dl.acm.org/doi/pdf/10.1145/3623264.3624457?casa_token=xzk76-QIKEsAAAAA:Le6WPwP9lhf9HrVZj9Ueyvbb2aZUq514VHryxtHE55z63bWW7FfeHf8-6MrI5vQEN1YTlcadf3-3)]\
+> Autonomous Exploration in Unknown Indoor 2D Environments Using Harmonic Fields and Monte Carlo Integration [[Paper](https://www.mdpi.com/1424-8220/25/16/4894)]\
+> Mesh‐free Monte Carlo method for electrostatic problems with floating potentials [[Paper](https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/hve2.12468)]\
+> Monte Carlo Methods for 2D Flow Visualization [[Paper](https://vc.tf.fau.de/publications/Tian25EuroVisShort/Tian25EuroVisShort.pdf)]
 
 as well as strategies for improving efficiency and increasing applicability to more boundary representations:
 

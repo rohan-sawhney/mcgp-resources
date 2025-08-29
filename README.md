@@ -23,7 +23,7 @@ All solvers and geometric queries are implemented in the open-source [Zombie](ht
 
 ## Additional aWoSome resources (will be updated regularly)
 
-WoS relies on and connects rich concepts from Monte Carlo methods, PDEs, and stochastic differential equations: from a [harmonic analysis](https://en.wikipedia.org/wiki/Harmonic_function) perspective, WoS is a Monte Carlo method for solving [Laplace equations](https://en.wikipedia.org/wiki/Laplace's_equation), while from a [random process](https://en.wikipedia.org/wiki/Stochastic_process) perspective, it is an acceleration strategy for simulating [Brownian motion](https://en.wikipedia.org/wiki/Brownian_motion). Here are some enjoyable reference resources on these topics:
+WoS is based on several rich concepts at the intersection of Monte Carlo methods, PDEs, and stochastic differential equations: from a [harmonic analysis](https://en.wikipedia.org/wiki/Harmonic_function) perspective, WoS is a Monte Carlo method for solving [Laplace equations](https://en.wikipedia.org/wiki/Laplace's_equation), while from a [random process](https://en.wikipedia.org/wiki/Stochastic_process) perspective, it is an acceleration strategy for simulating [Brownian motion](https://en.wikipedia.org/wiki/Brownian_motion). Here are some enjoyable reference resources on these topics:
 
 > CMU 21-387: Monte Carlo Methods and Applications [[Course webpage](https://geometrycollective.github.io/monte-carlo/mcma-fa2023.html)]\
 > Monte Carlo Methods - a special topics course [[Book](https://math.arizona.edu/~tgk/mc/book.pdf)]\
@@ -74,7 +74,7 @@ as well as strategies for improving efficiency and increasing applicability to m
 > Spelunking the deep: Guaranteed queries on neural implicit surfaces via range analysis [[Project](https://nmwsharp.com/research/interval-implicits/), [Paper](https://nmwsharp.com/media/papers/interval-implicits/SpelunkingTheDeep.pdf)]\
 > Ray Tracing Harmonic Functions [[Project](https://markjgillespie.com/Research/harnack-tracing/index.html), [Paper](https://markjgillespie.com/Research/harnack-tracing/HarnackTracing.pdf)]
 
-Also, here are a few fun educational demos, blogs and tweets:
+Also checkout these fun educational demos, blogs and tweets:
 
 > ShaderToy demos [[implicit surface](https://www.shadertoy.com/view/wdffWj), [curve inflation](https://www.shadertoy.com/view/7tyyzW), [diffusion curves](https://www.shadertoy.com/view/WdXfzl)]\
 > Blogs [[demofox](https://blog.demofox.org/2020/07/11/interpolating-data-over-arbitrary-shapes-with-laplaces-equation-and-walk-on-spheres/), [javascript implementation](https://observablehq.com/@fil/walk-on-spheres)]\

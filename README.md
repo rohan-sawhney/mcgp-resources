@@ -23,7 +23,7 @@ All solvers and geometric queries are implemented in the open-source [Zombie](ht
 
 ## Additional aWoSome resources (will be updated regularly)
 
-WoS is based on several rich concepts at the intersection of Monte Carlo methods, PDEs, and stochastic differential equations: from a [harmonic analysis](https://en.wikipedia.org/wiki/Harmonic_function) perspective, WoS is a Monte Carlo method for solving [Laplace equations](https://en.wikipedia.org/wiki/Laplace's_equation), while from a [random process](https://en.wikipedia.org/wiki/Stochastic_process) perspective, it is an acceleration strategy for simulating [Brownian motion](https://en.wikipedia.org/wiki/Brownian_motion). Here are some enjoyable reference resources on these topics:
+WoS is based on several rich concepts at the intersection of Monte Carlo methods, PDEs, and stochastic differential equations: from a [harmonic analysis](https://en.wikipedia.org/wiki/Harmonic_function) perspective, WoS is a Monte Carlo method for solving [Laplace equations](https://en.wikipedia.org/wiki/Laplace's_equation), while from a [random process](https://en.wikipedia.org/wiki/Stochastic_process) perspective, it is an acceleration strategy for simulating [Brownian motion](https://en.wikipedia.org/wiki/Brownian_motion). Here are some recommended reference resources if you would like to dive further into these topics:
 
 > CMU 21-387: Monte Carlo Methods and Applications [[Course webpage](https://geometrycollective.github.io/monte-carlo/mcma-fa2023.html)]\
 > Monte Carlo Methods - a special topics course [[Book](https://math.arizona.edu/~tgk/mc/book.pdf)]\

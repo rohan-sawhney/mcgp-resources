@@ -8,9 +8,8 @@ The [walk on spheres (WoS)](https://en.wikipedia.org/wiki/Walk-on-spheres_method
 
 This course, presented at [SIGGRAPH 2025](https://dl.acm.org/doi/10.1145/3721241.3734001) and the [Symposium on Geometry Processing Graduate School 2024](https://sgp2024.github.io/program/#graduate-school), provides a broad overview of grid-free Monte Carlo methods for PDEs, with an emphasis on teaching the key principles of Monte Carlo methods, from sample generation and variance reduction to system design, by ways of WoS and its recent generalizations.
 
-**SIGGRAPH 25 material**: [abstract](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SIGGRAPH-25-abstract.pdf), recording [_coming soon_], slides [[keynote](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SIGGRAPH-25-slides.key) (1.1 GB), [pdf](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SIGGRAPH-25-slides.pdf) (490 MB)], [ACM Library](https://dl.acm.org/doi/10.1145/3721241.3734001).
-
-**SGP 24 material**: recording [[pre-recorded](https://youtu.be/cmgNqCwaPYc), [live](https://www.youtube.com/watch?v=1u-5b492mKE)], slides [[keynote](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SGP-24-slides.key) (1 GB), [pdf](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SGP-24-slides.pdf) (100 MB)].
+**SIGGRAPH 25 material**: [abstract](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SIGGRAPH-25-abstract.pdf), recording [_coming soon_], slides [[key](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SIGGRAPH-25-slides.key) (1.1 GB), [pdf](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SIGGRAPH-25-slides.pdf) (410 MB)], [ACM Library](https://dl.acm.org/doi/10.1145/3721241.3734001).
+**SGP 24 material**: recording [[pre-recorded](https://youtu.be/cmgNqCwaPYc), [live](https://www.youtube.com/watch?v=1u-5b492mKE)], slides [[key](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SGP-24-slides.key) (1 GB), [pdf](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SGP-24-slides.pdf) (100 MB)].
 
 ## Associated publications and code
 

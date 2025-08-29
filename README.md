@@ -2,13 +2,15 @@
 
 # Resources on Monte Carlo Geometry Processing
 
+**SIGGRAPH 25 course material**: [abstract](https://www.google.com), recording [_coming soon_], slides [[keynote](https://www.google.com) (X GB), [pdf](https://www.google.com) (X MB)], [ACM Digital Library](https://dl.acm.org/doi/10.1145/3721241.3734001).
+
 **SGP 24 course material**: [webpage](https://rohan-sawhney.github.io/mcgp-resources/), recording [[pre-recorded](https://youtu.be/cmgNqCwaPYc), [live](https://www.youtube.com/watch?v=1u-5b492mKE)], slides [[keynote](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SGP-24-slides.key) (1 GB), [pdf](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SGP-24-slides.pdf) (100 MB)].
 
 **Abstract**: Accurately analyzing large amounts of geometric data is critical for many scientific and engineering applications. Techniques based on _partial differential equations (PDEs)_ provide powerful tools for analyzing physical systems, but conventional solvers are not at a stage where they “just work” on problems of real-world complexity. A constant challenge is spatial discretization, which divides the domain into a high-quality volumetric mesh or background grid for PDE-based analysis. Unfortunately, this approach does not scale well to modern computer architectures, and as such, there remains a large divide between our ability to _visualize_ and _analyze_ the natural world.
 
 The [walk on spheres (WoS)](https://en.wikipedia.org/wiki/Walk-on-spheres_method) algorithm makes a radical departure from conventional PDE solvers, by reformulating fundamental PDEs like the Poisson equation as recursive integrals that can be solved using the Monte Carlo method. Since these integrals closely resemble those in light transport, one can leverage deep knowledge from [Monte Carlo rendering](https://pbrt.org) to build new scalable algorithms with vastly different numerical tradeoffs, such as avoiding volumetric meshing altogether.
 
-This course, presented at the [Symposium on Geometry Processing Graduate School](https://sgp2024.github.io/program/#graduate-school), provides a broad overview of grid-free Monte Carlo methods for PDEs, with an emphasis on teaching the key principles of Monte Carlo methods, from sample generation and variance reduction to system design, by ways of WoS and its recent generalizations.
+This course, presented at [SIGGRAPH 2025](https://dl.acm.org/doi/10.1145/3721241.3734001) and the [Symposium on Geometry Processing Graduate School 2024](https://sgp2024.github.io/program/#graduate-school), provides a broad overview of grid-free Monte Carlo methods for PDEs, with an emphasis on teaching the key principles of Monte Carlo methods, from sample generation and variance reduction to system design, by ways of WoS and its recent generalizations.
 
 ## Associated publications and code
 
@@ -19,7 +21,7 @@ The course material is based on the following publications:
 > Grid-Free Monte Carlo for PDEs with Spatially Varying Coefficients [[Project](https://cs.dartmouth.edu/wjarosz/publications/sawhneyseyb22gridfree.html), [Paper](http://www.rohansawhney.io/vcwos.pdf), [Talk](https://www.youtube.com/watch?v=dXROl0KGPXc)]<br>
 > Boundary Value Caching for Walk on Spheres [[Paper](http://www.rohansawhney.io/BoundaryValueCaching.pdf), [Talk](https://www.youtube.com/watch?v=J9o7kgrpco0)]
 
-All solvers and geometric queries are implemented in the open-source [Zombie](https://github.com/rohan-sawhney/zombie) and [FCPW](https://github.com/rohan-sawhney/fcpw) libraries (respectively). Also checkout the following basic code examples: [WoS for Laplace](https://www.cs.cmu.edu/~kmcrane/Projects/MonteCarloGeometryProcessing/WoSLaplace2D.cpp.html), [WoS for Poisson](https://www.cs.cmu.edu/~kmcrane/Projects/MonteCarloGeometryProcessing/WoSPoisson2D.cpp.html), [WoSt step-by-step tutorial](https://github.com/GeometryCollective/wost-simple).
+All solvers and geometric queries are implemented in the open-source [Zombie](https://github.com/rohan-sawhney/zombie) and [FCPW](https://github.com/rohan-sawhney/fcpw) libraries (respectively). Also checkout the following basic code examples: [WoS in One Weekened](https://www.google.com), [WoS for Laplace](https://www.cs.cmu.edu/~kmcrane/Projects/MonteCarloGeometryProcessing/WoSLaplace2D.cpp.html), [WoS for Poisson](https://www.cs.cmu.edu/~kmcrane/Projects/MonteCarloGeometryProcessing/WoSPoisson2D.cpp.html), [WoSt step-by-step tutorial](https://github.com/GeometryCollective/wost-simple).
 
 ## Additional aWoSome resources (will be updated regularly)
 
@@ -83,11 +85,36 @@ Also checkout these fun educational demos, blogs and tweets:
 ## Course contributors
 
 [Rohan Sawhney](http://www.rohansawhney.io)\
-[Bailey Miller](https://www.bailey-miller.com)
+[Bailey Miller](https://www.bailey-miller.com)\
+[Ioannis Gkioulekas](https://www.cs.cmu.edu/~igkioule/)\
+[Keenan Crane](https://www.cs.cmu.edu/~kmcrane/)
+
+### Invited Speakers
+
+[Wojciech Jarosz](https://cs.dartmouth.edu/~wjarosz/)
+[Shuang Zhao](https://shuangz.com)
+[Mohammad Sina Nabizadeh](https://sinabiz.github.io)
+[https://zilulii.github.io](https://zilulii.github.io)
 
 ## Citation
 
-Use the following BibTeX to cite this course:
+Use the following BibTeX entries to cite this course:
+```
+@inproceedings{10.1145/3721241.3734001,
+    author = {Sawhney, Rohan and Miller, Bailey and Gkioulekas, Ioannis and Crane, Keenan},
+    title = {State of the Art in Grid-Free Monte Carlo Methods for Partial Differential Equations},
+    year = {2025},
+    isbn = {9798400715433},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3721241.3734001},
+    doi = {10.1145/3721241.3734001},
+    articleno = {3},
+    numpages = {8},
+    keywords = {Partial differential equations, Monte Carlo methods, walk on spheres},
+    series = {SIGGRAPH Courses '25}}
+```
+
 ```
 @inproceedings{Sawhney:2024:MCGP,
     author = {Sawhney, Rohan and Miller, Bailey},

@@ -23,7 +23,7 @@ The course material is based on the following publications:
 
 All solvers and geometric queries are implemented in the open-source [Zombie](https://github.com/rohan-sawhney/zombie) and [FCPW](https://github.com/rohan-sawhney/fcpw) libraries (respectively). Also checkout the following starter code samples:
 
-> [WoS in One Weekened](https://www.google.com)\
+> [WoS in One Weekened](https://brickisland.net/wos-one-weekend/)\
 > [WoS for Laplace](https://www.cs.cmu.edu/~kmcrane/Projects/MonteCarloGeometryProcessing/WoSLaplace2D.cpp.html)\
 > [WoS for Poisson](https://www.cs.cmu.edu/~kmcrane/Projects/MonteCarloGeometryProcessing/WoSPoisson2D.cpp.html)\
 > [WoSt step-by-step tutorial](https://github.com/GeometryCollective/wost-simple)

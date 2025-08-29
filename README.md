@@ -10,6 +10,7 @@ This course, presented at [SIGGRAPH 2025](https://dl.acm.org/doi/10.1145/3721241
 
 **SIGGRAPH 25 material**: [abstract](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SIGGRAPH-25-abstract.pdf), recording [_coming soon_], slides [[key](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SIGGRAPH-25-slides.key) (1.1 GB), [pdf](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SIGGRAPH-25-slides.pdf) (410 MB)], [ACM Library](https://dl.acm.org/doi/10.1145/3721241.3734001)\
 **SGP 24 material**: recording [[pre-recorded](https://youtu.be/cmgNqCwaPYc), [live](https://www.youtube.com/watch?v=1u-5b492mKE)], slides [[key](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SGP-24-slides.key) (1 GB), [pdf](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SGP-24-slides.pdf) (100 MB)]\
+
 [View course website](https://rohan-sawhney.github.io/mcgp-resources/)
 
 ## Associated publications and code

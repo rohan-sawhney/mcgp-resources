@@ -2,9 +2,9 @@
 
 # Resources on Monte Carlo Geometry Processing
 
-**SIGGRAPH 25 course material**: [abstract](https://www.google.com), recording [_coming soon_], slides [[keynote](https://www.google.com) (X GB), [pdf](https://www.google.com) (X MB)], [ACM Digital Library](https://dl.acm.org/doi/10.1145/3721241.3734001).
+**SIGGRAPH 25 material**: [abstract](https://www.google.com), recording [_coming soon_], slides [[keynote](https://www.google.com) (X GB), [pdf](https://www.google.com) (X MB)], [ACM Library](https://dl.acm.org/doi/10.1145/3721241.3734001).
 
-**SGP 24 course material**: [webpage](https://rohan-sawhney.github.io/mcgp-resources/), recording [[pre-recorded](https://youtu.be/cmgNqCwaPYc), [live](https://www.youtube.com/watch?v=1u-5b492mKE)], slides [[keynote](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SGP-24-slides.key) (1 GB), [pdf](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SGP-24-slides.pdf) (100 MB)].
+**SGP 24 material**: [webpage](https://rohan-sawhney.github.io/mcgp-resources/), recording [[pre-recorded](https://youtu.be/cmgNqCwaPYc), [live](https://www.youtube.com/watch?v=1u-5b492mKE)], slides [[keynote](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SGP-24-slides.key) (1 GB), [pdf](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SGP-24-slides.pdf) (100 MB)].
 
 **Abstract**: Accurately analyzing large amounts of geometric data is critical for many scientific and engineering applications. Techniques based on _partial differential equations (PDEs)_ provide powerful tools for analyzing physical systems, but conventional solvers are not at a stage where they “just work” on problems of real-world complexity. A constant challenge is spatial discretization, which divides the domain into a high-quality volumetric mesh or background grid for PDE-based analysis. Unfortunately, this approach does not scale well to modern computer architectures, and as such, there remains a large divide between our ability to _visualize_ and _analyze_ the natural world.
 
@@ -91,9 +91,9 @@ Also checkout these fun educational demos, blogs and tweets:
 
 ### Invited Speakers
 
-[Wojciech Jarosz](https://cs.dartmouth.edu/~wjarosz/)
-[Shuang Zhao](https://shuangz.com)
-[Mohammad Sina Nabizadeh](https://sinabiz.github.io)
+[Wojciech Jarosz](https://cs.dartmouth.edu/~wjarosz/)\
+[Shuang Zhao](https://shuangz.com)\
+[Mohammad Sina Nabizadeh](https://sinabiz.github.io)\
 [https://zilulii.github.io](https://zilulii.github.io)
 
 ## Citation

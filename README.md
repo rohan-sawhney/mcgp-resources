@@ -84,7 +84,7 @@ Also checkout these fun educational demos, blogs and tweets:
 
 ## Course Contributors
 
-### Organizers
+### Organizers \& Presenters
 
 [Rohan Sawhney](http://www.rohansawhney.io)\
 [Bailey Miller](https://www.bailey-miller.com)\

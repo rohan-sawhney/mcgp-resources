@@ -2,7 +2,7 @@
 
 # State of the Art in Grid-Free Monte Carlo Methods for Partial Differential Equations
 
-**SIGGRAPH 25 material**: [abstract](https://www.google.com), recording [_coming soon_], slides [[keynote](https://www.google.com) (X GB), [pdf](https://www.google.com) (X MB)], [ACM Library](https://dl.acm.org/doi/10.1145/3721241.3734001).
+**SIGGRAPH 25 material**: [abstract](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SIGGRAPH-25-abstract.pdf), recording [_coming soon_], slides [[keynote](https://www.google.com) (X GB), [pdf](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SIGGRAPH-25-slides.pdf) (450 MB)], [ACM Library](https://dl.acm.org/doi/10.1145/3721241.3734001).
 
 **SGP 24 material**: [webpage](https://rohan-sawhney.github.io/mcgp-resources/), recording [[pre-recorded](https://youtu.be/cmgNqCwaPYc), [live](https://www.youtube.com/watch?v=1u-5b492mKE)], slides [[keynote](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SGP-24-slides.key) (1 GB), [pdf](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SGP-24-slides.pdf) (100 MB)].
 

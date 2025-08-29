@@ -1,6 +1,6 @@
 <img src="imgs/sgp.gif" height="64" width="84" align="right" />
 
-# Resources on Monte Carlo Geometry Processing
+# State of the Art in Grid-Free Monte Carlo Methods for Partial Differential Equations
 
 **SIGGRAPH 25 material**: [abstract](https://www.google.com), recording [_coming soon_], slides [[keynote](https://www.google.com) (X GB), [pdf](https://www.google.com) (X MB)], [ACM Library](https://dl.acm.org/doi/10.1145/3721241.3734001).
 
@@ -84,7 +84,7 @@ Also checkout these fun educational demos, blogs and tweets:
 
 ## Course Contributors
 
-### Organizers \& Presenters
+### Organizers and Presenters
 
 [Rohan Sawhney](http://www.rohansawhney.io)\
 [Bailey Miller](https://www.bailey-miller.com)\

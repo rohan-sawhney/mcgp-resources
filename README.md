@@ -91,12 +91,12 @@ Also checkout these fun educational demos, blogs and tweets:
 [Ioannis Gkioulekas](https://www.cs.cmu.edu/~igkioule/)\
 [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/)
 
-## Invited Speakers
+### Invited Speakers
 
 [Wojciech Jarosz](https://cs.dartmouth.edu/~wjarosz/)\
 [Shuang Zhao](https://shuangz.com)\
 [Mohammad Sina Nabizadeh](https://sinabiz.github.io)\
-[https://zilulii.github.io](https://zilulii.github.io)
+[Zilu Li](https://zilulii.github.io)
 
 ## Citation
 

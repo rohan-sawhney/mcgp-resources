@@ -1,6 +1,6 @@
 <img src="imgs/logo.gif" height="64" width="84" align="right" />
 
-# State of the Art in Grid-Free Monte Carlo Methods for Partial Differential Equations
+# Resources on Monte Carlo Geometry Processing
 
 **SGP 24 course material**: [webpage](https://rohan-sawhney.github.io/mcgp-resources/), recording [[pre-recorded](https://youtu.be/cmgNqCwaPYc), [live](https://www.youtube.com/watch?v=1u-5b492mKE)], slides [[keynote](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SGP-24-slides.key) (1 GB), [pdf](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SGP-24-slides.pdf) (100 MB)].
 

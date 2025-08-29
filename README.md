@@ -2,15 +2,14 @@
 
 # State of the Art in Grid-Free Monte Carlo Methods for Partial Differential Equations
 
-**SIGGRAPH 25 material**: [abstract](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SIGGRAPH-25-abstract.pdf), recording [_coming soon_], slides [[keynote](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SIGGRAPH-25-slides.key) (1.1 GB), [pdf](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SIGGRAPH-25-slides.pdf) (490 MB)], [ACM Library](https://dl.acm.org/doi/10.1145/3721241.3734001).
-
-**SGP 24 material**: [webpage](https://rohan-sawhney.github.io/mcgp-resources/), recording [[pre-recorded](https://youtu.be/cmgNqCwaPYc), [live](https://www.youtube.com/watch?v=1u-5b492mKE)], slides [[keynote](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SGP-24-slides.key) (1 GB), [pdf](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SGP-24-slides.pdf) (100 MB)].
-
 **Abstract**: Accurately analyzing large amounts of geometric data is critical for many scientific and engineering applications. Techniques based on _partial differential equations (PDEs)_ provide powerful tools for analyzing physical systems, but conventional solvers are not at a stage where they “just work” on problems of real-world complexity. A constant challenge is spatial discretization, which divides the domain into a high-quality volumetric mesh or background grid for PDE-based analysis. Unfortunately, this approach does not scale well to modern computer architectures, and as such, there remains a large divide between our ability to _visualize_ and _analyze_ the natural world.
 
 The [walk on spheres (WoS)](https://en.wikipedia.org/wiki/Walk-on-spheres_method) algorithm makes a radical departure from conventional PDE solvers, by reformulating fundamental PDEs like the Poisson equation as recursive integrals that can be solved using the Monte Carlo method. Since these integrals closely resemble those in light transport, one can leverage deep knowledge from [Monte Carlo rendering](https://pbrt.org) to build new scalable algorithms with vastly different numerical tradeoffs, such as avoiding volumetric meshing altogether.
 
 This course, presented at [SIGGRAPH 2025](https://dl.acm.org/doi/10.1145/3721241.3734001) and the [Symposium on Geometry Processing Graduate School 2024](https://sgp2024.github.io/program/#graduate-school), provides a broad overview of grid-free Monte Carlo methods for PDEs, with an emphasis on teaching the key principles of Monte Carlo methods, from sample generation and variance reduction to system design, by ways of WoS and its recent generalizations.
+
+**SIGGRAPH 25 material**: [abstract](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SIGGRAPH-25-abstract.pdf), recording [_coming soon_], slides [[keynote](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SIGGRAPH-25-slides.key) (1.1 GB), [pdf](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SIGGRAPH-25-slides.pdf) (490 MB)], [ACM Library](https://dl.acm.org/doi/10.1145/3721241.3734001).
+**SGP 24 material**: recording [[pre-recorded](https://youtu.be/cmgNqCwaPYc), [live](https://www.youtube.com/watch?v=1u-5b492mKE)], slides [[keynote](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SGP-24-slides.key) (1 GB), [pdf](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SGP-24-slides.pdf) (100 MB)].
 
 ## Associated publications and code
 

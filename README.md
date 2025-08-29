@@ -1,4 +1,5 @@
 <img src="imgs/sgp.gif" height="64" width="84" align="right" />
+<img src="imgs/sgp.gif" height="64" width="84" align="right" />
 
 # State of the Art in Grid-Free Monte Carlo Methods for Partial Differential Equations
 

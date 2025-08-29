@@ -87,7 +87,7 @@ Also checkout these fun educational demos, blogs and tweets:
 
 ## Citation
 
-If you want to cite this course, use the following BibTeX:
+Use the following BibTeX to cite this course:
 ```
 @inproceedings{Sawhney:2024:MCGP,
     author = {Sawhney, Rohan and Miller, Bailey},

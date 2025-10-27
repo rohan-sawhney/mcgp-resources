@@ -9,7 +9,7 @@ The [walk on spheres (WoS)](https://en.wikipedia.org/wiki/Walk-on-spheres_method
 
 This course, presented at [SIGGRAPH 2025](https://dl.acm.org/doi/10.1145/3721241.3734001) and the [Symposium on Geometry Processing Graduate School 2024](https://sgp2024.github.io/program/#graduate-school), provides a broad overview of grid-free Monte Carlo methods for PDEs, with an emphasis on teaching the key principles of Monte Carlo methods, from sample generation and variance reduction to system design, by ways of WoS and its recent generalizations.
 
-**SIGGRAPH 25 material**: [abstract](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SIGGRAPH-25-abstract.pdf), recording [[ACM Library](https://dl.acm.org/doi/10.1145/3721241.3734001)], slides [[key](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SIGGRAPH-25-slides.key) (1.2 GB), [pdf](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SIGGRAPH-25-slides.pdf) (400 MB)]\
+**SIGGRAPH 25 material**: [abstract](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SIGGRAPH-25-abstract.pdf), recording [[ACM digital library](https://dl.acm.org/doi/10.1145/3721241.3734001)], slides [[key](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SIGGRAPH-25-slides.key) (1.2 GB), [pdf](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SIGGRAPH-25-slides.pdf) (400 MB)]\
 **SGP 24 material**: recording [[pre-recorded](https://youtu.be/cmgNqCwaPYc), [live](https://www.youtube.com/watch?v=1u-5b492mKE)], slides [[key](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SGP-24-slides.key) (1 GB), [pdf](https://github.com/rohan-sawhney/mcgp-resources/blob/main/SGP-24-slides.pdf) (100 MB)]
 
 [View course website](https://rohan-sawhney.github.io/mcgp-resources/)

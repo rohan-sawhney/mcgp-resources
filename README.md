@@ -107,7 +107,7 @@ Also checkout these fun educational demos, blogs and tweets:
 Use the following BibTeX entries to cite this course:
 ```
 @inproceedings{10.1145/3721241.3734001,
-    author = {Sawhney, Rohan and Miller, Bailey and Gkioulekas, Ioannis and Crane, Keenan},
+    author = {Sawhney, Rohan and Miller, Bailey and Gkioulekas, Ioannis and Crane, Keenan and Jarosz, Wojciech and Zhao, Shuang and Nabizadeh, Mohammad Sina and Li, Zilu},
     title = {State of the Art in Grid-Free Monte Carlo Methods for Partial Differential Equations},
     year = {2025},
     isbn = {9798400715433},

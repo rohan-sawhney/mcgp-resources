@@ -23,7 +23,7 @@ The course material is based on the following publications:
 > Grid-Free Monte Carlo for PDEs with Spatially Varying Coefficients [[Project](https://cs.dartmouth.edu/wjarosz/publications/sawhneyseyb22gridfree.html), [Paper](http://www.rohansawhney.io/vcwos.pdf), [Talk](https://www.youtube.com/watch?v=dXROl0KGPXc)]<br>
 > Boundary Value Caching for Walk on Spheres [[Paper](http://www.rohansawhney.io/BoundaryValueCaching.pdf), [Talk](https://www.youtube.com/watch?v=J9o7kgrpco0)]
 
-All solvers are implemented in the open-source, GPU-accelerated [Walk on Spheres Extensions (WoSX)](https://github.com/nv-tlabs/wosx) and CPU-based [Zombie](https://github.com/rohan-sawhney/zombie) libraries. Geometric queries are separately implemented in [FCPW](https://github.com/rohan-sawhney/fcpw). Also checkout the following starter code samples:
+All solvers are implemented in the GPU-accelerated [Walk on Spheres Extensions (WoSX)](https://github.com/nv-tlabs/wosx) library, as well as the CPU-based [Zombie](https://github.com/rohan-sawhney/zombie) library. Geometric queries are separately implemented in [FCPW](https://github.com/rohan-sawhney/fcpw). Also checkout the following starter code samples:
 
 > [WoS in One Weekened](https://brickisland.net/wos-one-weekend/)\
 > [WoS for Laplace](https://www.cs.cmu.edu/~kmcrane/Projects/MonteCarloGeometryProcessing/WoSLaplace2D.cpp.html)\

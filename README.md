@@ -92,7 +92,7 @@ Also checkout these fun educational demos, blogs and tweets:
 
 > ShaderToy demos [[implicit surface](https://www.shadertoy.com/view/wdffWj), [curve inflation](https://www.shadertoy.com/view/7tyyzW), [diffusion curves](https://www.shadertoy.com/view/WdXfzl)]\
 > Blogs [[demofox](https://blog.demofox.org/2020/07/11/interpolating-data-over-arbitrary-shapes-with-laplaces-equation-and-walk-on-spheres/), [javascript implementation](https://observablehq.com/@fil/walk-on-spheres)]\
-> Tweets [[MCGP](https://x.com/keenanisalive/status/1258152669727899650), [WoSt](https://x.com/keenanisalive/status/1674890996814090240), [Variable Coefficients](https://x.com/keenanisalive/status/1526156137971728385), [Path Planning](https://x.com/rms80/status/1317532899302805504)]
+> Tweets [[MCGP](https://x.com/keenanisalive/status/1258152669727899650), [WoSt](https://x.com/keenanisalive/status/1674890996814090240), [Variable Coefficients](https://x.com/keenanisalive/status/1526156137971728385), [Path Planning](https://x.com/rms80/status/1317532899302805504), [WoSX](https://x.com/rohansawhney1/status/2064429969980424660)]
 
 ## Course organizers \& presenters
 

@@ -64,6 +64,8 @@ WoS has recently seen growing interest in computer graphics, as it shares many c
 > Unbiased Differential Visibility Using Walk-on-Spherical-Caps and Closest Silhouettes [[Project](https://research.nvidia.com/labs/rtr/publication/wu2025unbiased/), [Paper](https://research.nvidia.com/labs/rtr/publication/wu2025unbiased/wu2025unbiased.pdf)]\
 > A Practical Walk-on-Boundary Method for Boundary Value Problems [[Project](https://rsugimoto.net/WoBforBVPsProject/), [Paper](https://rsugimoto.net/WoBforBVPsProject/WoBforBVPs.pdf)]\
 > Projected Walk on Spheres: A Monte Carlo Closest Point Method for Surface PDEs [[Project](https://rsugimoto.net/ProjectedWalkOnSpheres/), [Paper](https://rsugimoto.net/ProjectedWalkOnSpheres/ProjectedWalkOnSpheres.pdf)]\
+> Monte Carlo PDE Solvers for Nonlinear Radiative Boundary Conditions [[Project](https://baoanchang.com/publication/radwos), [Paper](https://dl.acm.org/doi/10.1145/3811321)]\
+> Monte Carlo Rendering of Biharmonic Diffusion Curves [[Project](https://paul-hi.github.io/biharmonic_wos.html), [Paper](https://dl.acm.org/doi/pdf/10.1145/3811397)]\
 > Walk on Spheres for PDE-based Path Planning [[Paper](https://arxiv.org/pdf/2406.01713)]\
 > Heat Simulation on Meshless Crafted-Made Shapes [[Paper](https://dl.acm.org/doi/pdf/10.1145/3623264.3624457?casa_token=xzk76-QIKEsAAAAA:Le6WPwP9lhf9HrVZj9Ueyvbb2aZUq514VHryxtHE55z63bWW7FfeHf8-6MrI5vQEN1YTlcadf3-3)]\
 > Autonomous Exploration in Unknown Indoor 2D Environments Using Harmonic Fields [[Paper](https://www.mdpi.com/1424-8220/25/16/4894)]\
